@@ -29,5 +29,13 @@ Features
   than one Plone Site, the viewlet is only used in the site where you
   install it.
 
+
+Compatibility
+=============
+
+``zest.social`` has been tested with Plone 3.3. and Plone 4.0, using
+archetypes.schemaextender 2.0.3.
+
+
 .. _`collective.addthis`: http://pypi.python.org/pypi/collective.addthis
 .. _`Zest Software`: http://zestsoftware.nl
