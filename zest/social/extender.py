@@ -6,6 +6,7 @@ from archetypes.schemaextender.interfaces import (
 from Products.Archetypes import atapi
 from Products.Archetypes.interfaces import IBaseObject
 from zest.social import ZestSocialMessageFactory as _
+from zest.social import config
 from zest.social.interfaces import IZestSocialLayer
 
 
@@ -35,7 +36,7 @@ class SocialBookmarkingSchemaExtender(object):
                              u"social bookmarking sites, showing links near "
                              u"the bottom of the page.")),
                 ),
-            default=False,
+            default=config.SHOW_VIEWLET_DEFAULT,
             ),
         ]
 

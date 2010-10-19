@@ -19,7 +19,7 @@ Features
 
 - Also, you get an extra boolean field ``show_social_viewlet`` on the
   edit page (the Settings tab) of content types (using
-  archetypes.schemaextender).  When this field is checked, the viewlet
+  ``archetypes.schemaextender``).  When this field is checked, the viewlet
   is shown.  By default the field is not checked, so the viewlet is
   not shown.
 
@@ -30,12 +30,25 @@ Features
   install it.
 
 
+Configuration
+=============
+
+There is no configuration in the UI.  If you want to override the
+default value and fallback value for showing the viewlet you may want
+to look at ``config.py`` and do a monkey patch on the values there.
+
+If you want to change the links that are shown, you should just
+override the viewlet template, which is probably easiest using
+`z3c.jbot`_.
+
+
 Compatibility
 =============
 
 ``zest.social`` has been tested with Plone 3.3. and Plone 4.0, using
-archetypes.schemaextender 2.0.3.
+`archetypes.schemaextender`_ 1.6 and 2.0.3.
 
 
-.. _`collective.addthis`: http://pypi.python.org/pypi/collective.addthis
+.. _`collective.addthis`: http://pypi.python.org/pypi/collective.addthis 
+.. _`archetypes.schemaextender`: http://pypi.python.org/pypi/archetypes.schemaextender
 .. _`Zest Software`: http://zestsoftware.nl

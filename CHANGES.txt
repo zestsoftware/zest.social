@@ -4,7 +4,17 @@ Changelog
 1.2 (unreleased)
 ----------------
 
-- Nothing changed yet.
+- When context.show_social_viewlet does not work, try 
+  context.getField('show_social_viewlet').get(context)
+  as somehow the first only works when you have called getField once.
+  Tested with archetypes.schemaextender 1.6 and 2.0.3.
+  [maurits]
+
+- Added config.py to ease overriding the 
+  default value for the show_social_viewlet field (False)
+  and the fallback value for when the field does not exist for the
+  current object (False).
+  [maurits]
 
 
 1.1 (2010-10-18)
