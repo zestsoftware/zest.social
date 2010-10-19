@@ -4,6 +4,11 @@ Changelog
 1.2 (unreleased)
 ----------------
 
+- Added MANIFEST.in file so the released package will contain ``.mo``
+  files (at least when using ``zest.releaser`` in combination with
+  ``zest.pocompile``).
+  [maurits]
+
 - When context.show_social_viewlet does not work, try 
   context.getField('show_social_viewlet').get(context)
   as somehow the first only works when you have called getField once.
