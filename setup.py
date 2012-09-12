@@ -7,7 +7,7 @@ setup(name='zest.social',
       version=version,
       description="Zest Social Bookmarking",
       long_description=open("README.txt").read() + "\n" +
-                       open("CHANGES.txt").read(),
+                       open("CHANGES.rst").read(),
       classifiers=[
         "Framework :: Plone",
         "Programming Language :: Python",
