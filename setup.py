@@ -1,21 +1,24 @@
 from setuptools import setup, find_packages
-import os
 
 version = '1.3dev'
 
 setup(name='zest.social',
       version=version,
       description="Zest Social Bookmarking",
-      long_description=open("README.txt").read() + "\n" +
-                       open("CHANGES.rst").read(),
+      long_description=(open("README.txt").read() + "\n" +
+                        open("CHANGES.rst").read()),
       classifiers=[
-        "Framework :: Plone",
-        "Programming Language :: Python",
-        ],
+          "Framework :: Plone",
+          "Framework :: Plone :: 3.3",
+          "Framework :: Plone :: 4.0",
+          "Framework :: Plone :: 4.1",
+          "Framework :: Plone :: 4.2",
+          "Programming Language :: Python",
+          ],
       keywords='social bookmarking addthis',
       author='Zest Software',
       author_email='info@zestsoftware.nl',
-      url='http://svn.plone.org/svn/collective/zest.social',
+      url='https://github.com/zestsoftware/zest.social',
       license='GPL',
       packages=find_packages(exclude=['ez_setup']),
       namespace_packages=['zest'],
