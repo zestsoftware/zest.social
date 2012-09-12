@@ -1,7 +1,7 @@
 Changelog
 =========
 
-1.3 (unreleased)
+1.3 (2012-09-12)
 ----------------
 
 - Moved to github.
