@@ -51,4 +51,5 @@ Compatibility
 
 .. _`collective.addthis`: http://pypi.python.org/pypi/collective.addthis 
 .. _`archetypes.schemaextender`: http://pypi.python.org/pypi/archetypes.schemaextender
+.. _`z3c.jbot`: http://pypi.python.org/pypi/z3c.jbot
 .. _`Zest Software`: http://zestsoftware.nl
