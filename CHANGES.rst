@@ -4,7 +4,8 @@ Changelog
 1.3 (unreleased)
 ----------------
 
-- Nothing changed yet.
+- Moved to github.
+  [maurits]
 
 
 1.2 (2010-10-19)
