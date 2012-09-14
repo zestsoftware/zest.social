@@ -7,7 +7,7 @@ Why a new one and not for example `collective.addthis`_?  Well,
 probably just because it is so easy to generate the javascript with
 the services we choose, and register this as a viewlet.  We did that
 for our own `Zest Software`_ site and a client wanted the same, but
-then with s checkbox per page to turn it on or off.
+then with a checkbox per page to turn it on or off.
 
 
 Features
